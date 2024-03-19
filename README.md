@@ -2,6 +2,7 @@
 ``` mermaid
 classDiagram
     MonoBehaviour <|-- HangmanGame
+    MonoBehaviour <|-- Manager
     class HangmanGame {
 	+ guessedWordText:TextMeshProUGUI
 	+ infoText:TextMeshProUGUI
@@ -21,4 +22,8 @@ classDiagram
         - CheckLetter(char letter):void
         - UpdateUI():void
     }
+
+class Manager{
+	
+}
 ```
