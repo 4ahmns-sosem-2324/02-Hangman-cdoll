@@ -1,6 +1,7 @@
 # 02-Hangman-cdoll
 ``` mermaid
 classDiagram
+    MonoBehaviour <|-- HangmanGame
     class HangmanGame {
 	+ guessedWordText:TextMeshProUGUI
 	+ infoText:TextMeshProUGUI
