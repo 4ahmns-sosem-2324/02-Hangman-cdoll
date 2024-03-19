@@ -16,8 +16,8 @@ classDiagram
         - Start():void
         - Update():void
         + RetryButton():void
-        - ChooseRandomWord(): void
-        - CheckLetter(char letter): void
-        - UpdateUI(): void
+        - ChooseRandomWord():void
+        - CheckLetter(char letter):void
+        - UpdateUI():void
     }
 ```
